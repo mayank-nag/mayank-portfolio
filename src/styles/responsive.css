@@ -1,0 +1,68 @@
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+    nav {
+        padding: 0 24px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    #about {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card:first-child {
+        grid-column: span 1;
+    }
+
+    section {
+        padding: 80px 24px;
+    }
+
+    .social-icons {
+        left: 24px;
+    }
+
+    .scroll-hint {
+        display: none;
+    }
+
+    .hero-name {
+        font-size: clamp(40px, 12vw, 80px);
+    }
+
+    .hero-content {
+        bottom: 80px;
+    }
+
+    footer {
+        padding: 24px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links a:not(.nav-cta) {
+        display: none;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-big {
+        font-size: clamp(32px, 12vw, 64px);
+    }
+}

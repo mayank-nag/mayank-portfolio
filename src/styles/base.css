@@ -1,0 +1,62 @@
+/* ─── Reset & Base ─── */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-display);
+    background: var(--hero-dark-bg);
+    color: var(--accent);
+    overflow-x: hidden;
+    cursor: none;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+section {
+    min-height: 100vh;
+    padding: 120px 48px;
+}
+
+.section-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-label::before {
+    content: '';
+    width: 32px;
+    height: 1px;
+    background: var(--text-muted);
+}
+
+/* Scroll reveal base */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* Selection */
+::selection {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+[data-theme='light'] ::selection {
+    background: rgba(0, 0, 0, 0.15);
+    color: #0a0a0a;
+}

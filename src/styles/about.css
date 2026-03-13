@@ -1,0 +1,96 @@
+/* ─── About Section ─── */
+#about {
+    background: var(--about-bg);
+    color: var(--about-text);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+.about-heading {
+    font-size: clamp(40px, 5vw, 72px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+.about-text {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--about-muted);
+}
+
+.about-text p+p {
+    margin-top: 20px;
+}
+
+/* ─── Education ─── */
+.education-block {
+    margin-top: 40px;
+    border-top: 1px solid var(--about-stat-border);
+    padding-top: 24px;
+}
+
+.education-block h4 {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--about-stat-label);
+    margin-bottom: 20px;
+}
+
+.education-item {
+    margin-bottom: 16px;
+}
+
+.education-item h5 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--about-text);
+}
+
+.education-item p {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--about-stat-label);
+    margin-top: 2px;
+}
+
+.education-item .period {
+    font-size: 11px;
+    color: var(--about-stat-label);
+    opacity: 0.7;
+}
+
+/* ─── Stats ─── */
+.about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.stat-item {
+    border-top: 1px solid var(--about-stat-border);
+    padding-top: 16px;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+
+.stat-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: var(--about-stat-label);
+    margin-top: 4px;
+}
