@@ -58,9 +58,9 @@ export const profile = {
       pattern: 'grid',
       caseStudy: {
         problem: 'Women in unsafe situations need a fast, reliable way to alert contacts and share location without complex app interactions.',
-        approach: 'Built a mobile-first web app with minimal UI, one-tap emergency buttons, and integrated geolocation APIs for real-time location sharing.',
-        challenges: 'Ensuring reliable geolocation across browsers, designing for high-stress low-attention UX, and maintaining accessibility standards.',
-        outcome: 'A working prototype that demonstrates rapid emergency response workflow with clean, accessible design.',
+        approach: 'Built a simple mobile-friendly web interface with an SOS button and browser geolocation support to demonstrate how emergency alerts and location sharing could work.',
+        challenges: 'Handling browser permissions for location access and designing a simple interface that works well on mobile screens.',
+        outcome: 'Created a working prototype that demonstrates the basic emergency alert and location sharing workflow.',
       },
     },
     {
@@ -73,14 +73,14 @@ export const profile = {
         'Dark/light theme toggle with persistence',
       ],
       tech: ['Vite', 'JavaScript', 'Anime.js', 'CSS'],
-      github: 'https://github.com/Mayank-nag/portfolio',
+      github: 'https://github.com/Mayank-nag/mayank-portfolio',
       gradient: 'linear-gradient(135deg, #1a0a00 0%, #3d1500 50%, #5c2200 100%)',
       pattern: 'dots',
       caseStudy: {
-        problem: 'Needed a professional, fast-loading developer portfolio that showcases skills and projects effectively.',
-        approach: 'Used Vite for fast builds and modular JS components, Anime.js for performant animations, and a clean minimal design system.',
-        challenges: 'Balancing animation smoothness with performance, implementing theme switching without flicker, and ensuring full mobile responsiveness.',
-        outcome: 'A high-performance portfolio with Lighthouse scores above 90, smooth animations, and fully responsive design.',
+        problem: 'Needed a personal website to present projects, skills, and contact information in a clear and professional way.',
+        approach: 'Developed a portfolio using Vite and modular JavaScript, with Anime.js used for simple UI animations and scroll effects.',
+        challenges: 'Structuring the site content cleanly, implementing theme switching, and ensuring the layout worked well on different screen sizes.',
+        outcome: 'A fast-loading portfolio site that organizes projects and skills with a clean interface.',
       },
     },
     {
@@ -97,10 +97,10 @@ export const profile = {
       gradient: 'linear-gradient(135deg, #001a0a 0%, #003320 50%, #004d30 100%)',
       pattern: 'lines',
       caseStudy: {
-        problem: 'Wanted to understand low-level game development concepts like physics, rendering loops, and state management.',
-        approach: 'Built multiple games using PyGame, implementing custom physics engines, sprite management, and event-driven architecture.',
-        challenges: 'Managing frame-rate-independent physics, handling complex collision detection, and optimizing rendering performance.',
-        outcome: 'Multiple playable games demonstrating strong understanding of game development fundamentals and Python OOP.',
+        problem: 'Wanted to explore how simple games are built using Python and understand concepts like game loops and collision detection.',
+        approach: 'Used PyGame to create small experimental games while implementing basic movement, collision detection, and scoring systems.',
+        challenges: 'Understanding event loops, handling collisions correctly, and managing object movement within the game window.',
+        outcome: 'Several small playable game experiments that helped build familiarity with PyGame and game programming basics.',
       },
     },
     {
@@ -117,10 +117,10 @@ export const profile = {
       gradient: 'linear-gradient(135deg, #0d0d2b 0%, #1a1a40 50%, #2d2d6b 100%)',
       pattern: 'grid',
       caseStudy: {
-        problem: 'Running untrusted code requires isolation to prevent system compromise and data exfiltration.',
-        approach: 'Developed a Python-based sandboxing solution with restricted system calls, permission management, and monitoring.',
-        challenges: 'Balancing security restrictions with usability, preventing privilege escalation, and implementing comprehensive logging.',
-        outcome: 'A functional secure environment demonstrating sandboxing principles applicable to real-world security systems.',
+        problem: 'Exploring how restricted environments can be used to safely run code without affecting the main system.',
+        approach: 'Developed a Python project experimenting with limited execution environments and basic monitoring of program behavior.',
+        challenges: 'Understanding system permissions and identifying safe ways to restrict access to certain operations.',
+        outcome: 'A learning project demonstrating basic concepts related to sandboxing and controlled execution.',
       },
     },
     {
@@ -137,10 +137,10 @@ export const profile = {
       gradient: 'linear-gradient(135deg, #1a1200 0%, #332600 50%, #4d3900 100%)',
       pattern: 'dots',
       caseStudy: {
-        problem: 'Manual identification of mango varieties is time-consuming and error-prone for agricultural quality control.',
-        approach: 'Built a CNN model using TensorFlow with data augmentation, transfer learning, and OpenCV preprocessing pipeline.',
-        challenges: 'Limited training data, class imbalance between varieties, and optimizing model size for potential mobile deployment.',
-        outcome: 'A trained model achieving reliable classification accuracy, with a clean training pipeline and evaluation metrics.',
+        problem: 'Identifying mango varieties from images can be difficult without prior knowledge.',
+        approach: 'Trained a basic image classification model using TensorFlow with preprocessing handled using OpenCV.',
+        challenges: 'Collecting a small dataset and understanding how to prepare images for training.',
+        outcome: 'A working prototype model capable of classifying mango images with reasonable accuracy on the available dataset.',
       },
     },
     
